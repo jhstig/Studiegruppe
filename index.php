@@ -10,7 +10,8 @@
         <p id="company-name">Company name</p>
         <nav>
             <a class="top-navigation" href="about.php">About</a>
-            <a class="top-navigation" href="test">Test</a>
+            <a class="top-navigation" href="contact.php">Contact</a>
+            <a class="top-navigation" href="history.php">History</a>
             <p>yellow</p>
         </nav>
     </div>
