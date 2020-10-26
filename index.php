@@ -9,7 +9,7 @@
     <div id="site-wrapper">
         <p id="company-name">Company name</p>
         <nav>
-            <a class="top-navigation" href="/about.php">About</a>
+            <a class="top-navigation" href="about.php">About</a>
             <a class="top-navigation" href="test">Test</a>
             <p>yellow</p>
         </nav>
