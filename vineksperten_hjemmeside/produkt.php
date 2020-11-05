@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vineksperten</title>
+    <title><!-- produktnavn variables --></title>
 </head>
 <header>
     <div id="top-row">
@@ -57,6 +57,24 @@
     </div>
 </header>
 <body>
-    
+    <div id="product-wrapper">
+        <div id="produkt-billede">
+            <img src="https://picsum.photos/250/400">
+        </div>
+        <div id="produktinfo-wrapper">
+            <div id="produktnavn">Amarone</div>
+            <div id="produkt-type-cat">Rødvin, Fransk</div>
+            <div id="produkt-pris">129 DKK</div> 
+        </div>
+        <div id="yderligere-information">
+            <p> Nydes ved 18 grader celsius. Bedst med kød</p>
+        </div>
+        <div id="produkt-egenskaber">
+            <p>Indeholder 700ml</p>
+        </div>
+        
+        
+        
+    </div>
 </body>
 </html>
