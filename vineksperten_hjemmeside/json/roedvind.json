@@ -1,0 +1,15 @@
+[
+  {
+    "title": "Amarone Classico",
+    "price": 635.00,
+    "country": "Italien",
+    "region": "Veneto",
+    "image": "billeder/amarone.jpg",
+    "specs": {
+      "size": "0.75L",
+      "brand": "Accordini",
+      "abv": "16.6%"
+
+    }
+  }
+]

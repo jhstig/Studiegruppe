@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Rødvin",
+    "file": "json/roedvin.json"
+  },
+  {
+    "title": "Hvidvin",
+    "file": "json/hvidvin.json"
+  },
+  {
+    "title": "Rosevin",
+    "file": "json/rosevin.json"
+  },
+  {
+    "title": "Spiritus",
+    "file": "json/spiritus.json"
+  },
+  {
+    "title": "Delikatesser",
+    "file": "json/delikatesser.json"
+  }
+]
