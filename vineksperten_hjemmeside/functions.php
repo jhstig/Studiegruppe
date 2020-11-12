@@ -10,3 +10,4 @@ function debug($var) {
   print_r($var);
   echo '</pre>';
 }
+?>
