@@ -15,44 +15,22 @@
     <div id="secTop-row">
         <!-- Menu -->
         <div class="dropdown">
-            <button class="dropbtn" id="rodvin">Rødvin</button>
-            <div class="dropdown-content">
-                <a href="#">Amerikansk</a>
-                <a href="#">Italiensk</a>
-                <a href="#">Fransk</a>
-            </div>
+            <p id="rodvin">Rødvin</p>
+
         </div>
         <div class="dropdown">
-            <button class="dropbtn" id="hvidvin-menu">Hvidvin</button>
-            <div class="dropdown-content">
-                <a href="#">Amerikansk</a>
-                <a href="#">Italiensk</a>
-                <a href="#">Fransk</a>
-            </div>
+            <p id="hvidvin-menu">Hvidvin</p>
         </div>
         <div class="dropdown">
-            <button class="dropbtn" id="Rosevin-menu">Rosévin</button>
-            <div class="dropdown-content">
-                <a href="#">Amerikansk</a>
-                <a href="#">Italiensk</a>
-                <a href="#">Fransk</a>
-            </div>
+            <p id="Rosevin-menu">Rosévin</p>
+
         </div>
         <div class="dropdown">
-            <button class="dropbtn" id="spiritus-menu">Spiritus</button>
-            <div class="dropdown-content">
-                <a href="#">Amerikansk</a>
-                <a href="#">Italiensk</a>
-                <a href="#">Fransk</a>
-            </div>
+            <p id="spiritus-menu">Spiritus</p>
+
         </div>
         <div class="dropdown">
-            <button class="dropbtn" id="delikatesser-menu">Delikatesser</button>
-            <div class="dropdown-content">
-                <a href="#">Amerikansk</a>
-                <a href="#">Italiensk</a>
-                <a href="#">Fransk</a>
-            </div>
+            <p id="delikatesser-menu">Delikatesser</p>
         </div>
     </div>
 </header>
