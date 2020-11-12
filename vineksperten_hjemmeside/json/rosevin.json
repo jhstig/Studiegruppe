@@ -1,14 +1,15 @@
 [
   {
     "title": "Arrogant Frog Rosé",
-    "price": 75.00,
+    "cat": "Rosévin",
+    "price": "75,00",
     "country": "Frankrig",
     "region": "Languedoc",
     "image": "billeder/arrogant_frog_rosé.jpg",
     "specs": {
-      "size": "0.75L",
+      "size": "0,75L",
       "brand": "The Humble Winemaker",
-      "abv": "12.5%"
+      "abv": "12,5%"
     }
   }
 ]
