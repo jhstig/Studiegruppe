@@ -1,0 +1,10 @@
+[
+  {
+    "title": "Coca Cola",
+    "price": 20,
+    "image": "img/cola.jpg",
+    "specs": {
+      "size": "0.5L"
+    }
+  }
+]

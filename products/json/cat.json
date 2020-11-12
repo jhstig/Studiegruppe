@@ -1,0 +1,10 @@
+[
+  {
+    "title": "Softdrinks",
+    "file": "json/softdrinks.json"
+  },
+  {
+    "title": "Chips",
+    "file": "json/chips.json"
+  }
+]
