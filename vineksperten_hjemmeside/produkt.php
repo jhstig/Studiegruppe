@@ -44,18 +44,18 @@ $product = getJson($_GET['cat'])[$_GET['pid']];
             <img src="<?php echo $product['image']; ?>">
         </div>
         <div id="produktinfo-wrapper">
-            <div id="produktnavn"><?php echo $product['title']; ?></div>
-            <div id="produkt-type-cat"><?php echo $product['cat']; ?></div>
-            <div id="produkt-pris"><?php echo $product['price']; ?> DKK</div> 
+            <div>
+                <div id="produktnavn"><?php echo $product['title']; ?></div>
+                <div id="produkt-type-cat"><?php echo $product['country']; ?></div>
+            </div>
+            <div id="produkt-pris"><?php echo $product['price']; ?></div> 
         </div>
-        <div id="yderligere-information">
-            <p> Nydes ved 18 grader celsius. Bedst med kød</p>
-        </div>
-        <div id="produkt-egenskaber">
-            <p><?php echo $product['specs']['size']; ?></p>
-        </div>
-        <div id="brand">
-            <p><?php echo $product['specs']['brand']; ?></p>
+        <br>
+        <div id="product-details">
+            <div><?php echo $product['specs']['other']; ?></div>
+            <div><?php echo $product['specs']['brand']; ?></div>
+            <div><?php echo $product['specs']['size']; ?></div>
+            <div><?php echo $product['specs']['abv']; ?></div>
         </div>
         
         
