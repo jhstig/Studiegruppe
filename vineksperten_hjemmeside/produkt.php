@@ -20,18 +20,15 @@ $product = getJson($_GET['cat'])[$_GET['pid']];
         <!-- Menu -->
         <div class="dropdown">
             <p id="rodvin">Rødvin</p>
-
         </div>
         <div class="dropdown">
             <p id="hvidvin-menu">Hvidvin</p>
         </div>
         <div class="dropdown">
             <p id="Rosevin-menu">Rosévin</p>
-
         </div>
         <div class="dropdown">
             <p id="spiritus-menu">Spiritus</p>
-
         </div>
         <div class="dropdown">
             <p id="delikatesser-menu">Delikatesser</p>
@@ -57,9 +54,6 @@ $product = getJson($_GET['cat'])[$_GET['pid']];
             <div><?php echo $product['specs']['size']; ?></div>
             <div><?php echo $product['specs']['abv']; ?></div>
         </div>
-        
-        
-        
     </div>
 </body>
 </html>
