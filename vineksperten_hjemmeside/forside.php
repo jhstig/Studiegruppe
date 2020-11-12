@@ -33,12 +33,14 @@ if(isset($_GET['cat'])) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vineksperten</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <header>
     <div id="top-row">
-        <img src="https://picsum.photos/200/100" id="logo">    <!-- billede -->
-        <input type="text" id="search" name="search" value="Søg"><!-- Søgefeldt -->
-        <button>Indkøbskurv</button><!-- Indkøbskurv -->
+        <img id="img" src="billeder/vineksperten.png" id="logo">    <!-- billede -->
+        <input class="top-row-btn" id="search-box" type="text" id="search" name="search" value="Søg"><!-- Søgefeldt -->
+        <button class="top-row-btn">Søg</button>
+        <button class="top-row-btn">Indkøbskurv</button><!-- Indkøbskurv -->
     </div>
     <hr>
     <div id="secTop-row">
@@ -65,7 +67,7 @@ if(isset($_GET['cat'])) {
 </header>
 <body>
 <?php for($j = 0; $j < count($products); $j++) { ?>
-      <div>
+      <div class="product-grid">
         <h2><?php echo $products[$j]['title']; ?></h2>
         <img src="<?php echo $products[$j]['image']; ?>">
         <a href="produkt.php?pid=<?php echo $products[$j]['pid']; ?>&cat=<?php echo $products[$j]['cat']; ?>">Se mere</a>

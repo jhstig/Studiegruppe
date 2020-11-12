@@ -1,0 +1,23 @@
+
+#img{
+    width: auto;
+    height: 100px;
+}
+#search-box{
+    width: 350px;
+    height: 40px;
+    font-size: 25px;
+}
+.top-row-btn{
+    height: 45px;
+    vertical-align: middle;
+    text-align: center;
+    padding-top: auto;
+    padding-bottom: auto;
+
+}
+#top-row{
+    border: 3px solid green;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
