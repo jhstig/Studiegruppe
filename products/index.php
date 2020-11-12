@@ -37,7 +37,7 @@ if(isset($_GET['cat'])) {
       <div>
         <h2><?php echo $products[$j]['title']; ?></h2>
         <img src="<?php echo $products[$j]['image']; ?>">
-        <a href="product-singe.php?pid=<?php echo $products[$j]['pid']; ?>&cat=<?php echo $products[$j]['cat']; ?>">Se mere</a>
+        <a href="product-single.php?pid=<?php echo $products[$j]['pid']; ?>&cat=<?php echo $products[$j]['cat']; ?>">Se mere</a>
       </div>
     <?php } ?>
   </body>
