@@ -1,1 +1,14 @@
-[""]
+[
+  {
+    "title": "Summerbird - Peru 71% Bar",
+    "price": 42.00,
+    "country": "Peru",
+    "image": "billeder/summerbird_peru71.jpg",
+    "specs": {
+      "size": "60gr",
+      "brand": "Summerbird",
+      "cocoacontent": "71%"
+
+    }
+  }
+]

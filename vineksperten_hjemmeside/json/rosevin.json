@@ -1,14 +1,14 @@
 [
   {
-    "title": "",
-    "price": ,
-    "country": "",
-    "region": "",
-    "image": "",
+    "title": "Arrogant Frog Rosé",
+    "price": 75.00,
+    "country": "Frankrig",
+    "region": "Languedoc",
+    "image": "billeder/arrogant_frog_rosé.jpg",
     "specs": {
-      "size": "",
-      "brand": "",
-      "abv": ""
+      "size": "0.75L",
+      "brand": "The Humble Winemaker",
+      "abv": "12.5%"
     }
   }
 ]
