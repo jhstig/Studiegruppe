@@ -1,3 +1,7 @@
+<?php
+include('functions.php');
+$product = getJson($_GET['cat'])[$_GET['pid']];
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,62 +19,43 @@
     <div id="secTop-row">
         <!-- Menu -->
         <div class="dropdown">
-            <button class="dropbtn" id="rodvin">Rødvin</button>
-            <div class="dropdown-content">
-                <a href="#">Amerikansk</a>
-                <a href="#">Italiensk</a>
-                <a href="#">Fransk</a>
-            </div>
+            <p id="rodvin">Rødvin</p>
+
         </div>
         <div class="dropdown">
-            <button class="dropbtn" id="hvidvin-menu">Hvidvin</button>
-            <div class="dropdown-content">
-                <a href="#">Amerikansk</a>
-                <a href="#">Italiensk</a>
-                <a href="#">Fransk</a>
-            </div>
+            <p id="hvidvin-menu">Hvidvin</p>
         </div>
         <div class="dropdown">
-            <button class="dropbtn" id="Rosevin-menu">Rosévin</button>
-            <div class="dropdown-content">
-                <a href="#">Amerikansk</a>
-                <a href="#">Italiensk</a>
-                <a href="#">Fransk</a>
-            </div>
+            <p id="Rosevin-menu">Rosévin</p>
+
         </div>
         <div class="dropdown">
-            <button class="dropbtn" id="spiritus-menu">Spiritus</button>
-            <div class="dropdown-content">
-                <a href="#">Amerikansk</a>
-                <a href="#">Italiensk</a>
-                <a href="#">Fransk</a>
-            </div>
+            <p id="spiritus-menu">Spiritus</p>
+
         </div>
         <div class="dropdown">
-            <button class="dropbtn" id="delikatesser-menu">Delikatesser</button>
-            <div class="dropdown-content">
-                <a href="#">Amerikansk</a>
-                <a href="#">Italiensk</a>
-                <a href="#">Fransk</a>
-            </div>
+            <p id="delikatesser-menu">Delikatesser</p>
         </div>
     </div>
 </header>
 <body>
     <div id="product-wrapper">
         <div id="produkt-billede">
-            <img src="https://picsum.photos/250/400">
+            <img src="<?php echo $product['image']; ?>">
         </div>
         <div id="produktinfo-wrapper">
-            <div id="produktnavn">Amarone</div>
-            <div id="produkt-type-cat">Rødvin, Fransk</div>
-            <div id="produkt-pris">129 DKK</div> 
+            <div id="produktnavn"><?php echo $product['title']; ?></div>
+            <div id="produkt-type-cat"><?php echo $product['cat']; ?></div>
+            <div id="produkt-pris"><?php echo $product['price']; ?> DKK</div> 
         </div>
         <div id="yderligere-information">
             <p> Nydes ved 18 grader celsius. Bedst med kød</p>
         </div>
         <div id="produkt-egenskaber">
-            <p>Indeholder 700ml</p>
+            <p><?php echo $product['specs']['size']; ?></p>
+        </div>
+        <div id="brand">
+            <p><?php echo $product['specs']['brand']; ?></p>
         </div>
         
         
