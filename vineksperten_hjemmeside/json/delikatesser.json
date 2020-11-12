@@ -2,14 +2,14 @@
   {
     "title": "Summerbird - Peru 71% Bar",
     "cat": "Delikatesser",
-    "price": "Pris: 42,00 DKK",
-    "country": "Peruviansk",
+    "price": "42,00",
+    "country": "Peru",
     "image": "billeder/summerbird_peru71.jpg",
     "specs": {
-      "size": "Mængde: 60,0gr",
-      "brand": "Mærke: Summerbird",
-      "abv": "Kakaoindhold: 71,0%",
-      "other": "Lækker chokolade"
+      "size": "60,0gr",
+      "brand": "Summerbird",
+      "cocoacontent": "71,0%",
+      "year": ""
 
     }
   }
