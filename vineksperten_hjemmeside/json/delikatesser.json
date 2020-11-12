@@ -3,12 +3,12 @@
     "title": "Summerbird - Peru 71% Bar",
     "cat": "Delikatesser",
     "price": "42,00",
-    "country": "Peru",
+    "country": "Land: Peru",
     "image": "billeder/summerbird_peru71.jpg",
     "specs": {
-      "size": "60,0gr",
-      "brand": "Summerbird",
-      "abv": "71,0%",
+      "size": "Mængde: 60,0gr",
+      "brand": "Producent: Summerbird",
+      "abv": "Kakaomægnde: 71,0%",
       "other": "",
       "year": ""
 

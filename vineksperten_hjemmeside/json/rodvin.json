@@ -3,15 +3,15 @@
     "title": "Amarone Classico",
     "cat": "Rødvin",
     "price": "635,00",
-    "country": "Italien",
-    "region": "Veneto",
+    "country": "Land: Italien",
+    "region": "Område: Veneto",
     "image": "billeder/amarone.jpg",
     "specs": {
-      "size": "0,75L",
-      "brand": "Accordini",
-      "abv": "16,6%",
+      "size": "Mængde: 0,75L",
+      "brand": "Producent: Accordini",
+      "abv": "Vol: 16,6%",
       "other": "",
-      "year": "2012"
+      "year": "Årgang: 2012"
 
     }
   }
