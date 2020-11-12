@@ -2,13 +2,13 @@
   {
     "title": "Summerbird - Peru 71% Bar",
     "cat": "Delikatesser",
-    "price": 42.00,
+    "price": "42,00",
     "country": "Peru",
     "image": "billeder/summerbird_peru71.jpg",
     "specs": {
-      "size": "60gr",
+      "size": "60,0gr",
       "brand": "Summerbird",
-      "cocoacontent": "71%"
+      "cocoacontent": "71,0%"
 
     }
   }
