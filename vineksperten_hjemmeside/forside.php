@@ -35,43 +35,56 @@ if(isset($_GET['cat'])) {
     <title>Vineksperten</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<header>
-    <div id="top-row">
-        <img id="img" src="billeder/vineksperten.png" id="logo">    <!-- billede -->
-        <input class="top-row-btn" id="search-box" type="text" id="search" name="search" value="Søg"><!-- Søgefeldt -->
-        <button class="top-row-btn">Søg</button>
-        <button class="top-row-btn">Indkøbskurv</button><!-- Indkøbskurv -->
-    </div>
-    <hr>
-    <div id="secTop-row">
-        <!-- Menu -->
-        <div class="dropdown">
-            <p id="rodvin">Rødvin</p>
-
-        </div>
-        <div class="dropdown">
-            <p id="hvidvin-menu">Hvidvin</p>
-        </div>
-        <div class="dropdown">
-            <p id="Rosevin-menu">Rosévin</p>
-
-        </div>
-        <div class="dropdown">
-            <p id="spiritus-menu">Spiritus</p>
-
-        </div>
-        <div class="dropdown">
-            <p id="delikatesser-menu">Delikatesser</p>
-        </div>
-    </div>
-</header>
 <body>
-<?php for($j = 0; $j < count($products); $j++) { ?>
-      <div class="product-grid">
-        <h2><?php echo $products[$j]['title']; ?></h2>
-        <img src="<?php echo $products[$j]['image']; ?>">
-        <a href="produkt.php?pid=<?php echo $products[$j]['pid']; ?>&cat=<?php echo $products[$j]['cat']; ?>">Se mere</a>
+  <header>
+      <div id="top-row">
+          <img id="img" src="billeder/vineksperten.png" id="logo">    <!-- billede -->
+          <input class="top-row-btn" id="search-box" type="text" id="search" name="search" value="Søg"><!-- Søgefeldt -->
+          <button class="top-row-btn">Søg</button>
+          <button class="top-row-btn">Indkøbskurv</button><!-- Indkøbskurv -->
       </div>
-    <?php } ?>
+      <hr>
+      <div id="sec-top-row">
+          <!-- Menu -->
+          <div class="menu-items">
+              <p id="rodvin">Rødvin</p>
+          </div>
+          <div class="menu-items">
+              <p id="hvidvin-menu">Hvidvin</p>
+          </div>
+          <div class="menu-items">
+              <p id="Rosevin-menu">Rosévin</p>
+
+          </div>
+          <div class="menu-items">
+              <p id="spiritus-menu">Spiritus</p>
+          </div>
+          <div class="menu-items">
+              <p id="delikatesser-menu">Delikatesser</p>
+          </div>
+      </div>
+  </header>
+  
+  <div id="product-grid">
+    <?php for($j = 0; $j < count($products); $j++) { ?>
+        <div class="individual-products">
+          <a href="produkt.php?pid=<?php echo $products[$j]['pid']; ?>&cat=<?php echo $products[$j]['cat']; ?>">
+            <div>
+              <h2><?php echo $products[$j]['title']; ?></h2>
+            </div>
+            <div>
+              <img class="product-images" src="<?php echo $products[$j]['image']; ?>">
+            </div>
+            <div>
+              <h3><?php echo $products[$j]['price']; ?></h3>
+            </div>
+            <div>
+              <p><?php echo $products[$j]['specs']['brand']; ?> ｜ <?php echo $products[$j]['specs']['size']; ?></p>
+            </div>
+          </a>
+        </div>
+      <?php } ?>
+  </div>
+
 </body>
 </html>

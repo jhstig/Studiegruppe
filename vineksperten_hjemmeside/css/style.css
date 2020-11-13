@@ -3,21 +3,41 @@
     width: auto;
     height: 100px;
 }
+#top-row{
+    display:grid;
+    grid-template-columns: 300px auto 100px 300px;
+    gap: 10px;
+
+
+}
+.top-row-btn{
+    vertical-align: middle;
+    text-align: center;
+    height: 46px;
+    margin-top: 26px;
+    
+}
 #search-box{
-    width: 350px;
+    width: auto;
     height: 40px;
     font-size: 25px;
 }
-.top-row-btn{
-    height: 45px;
-    vertical-align: middle;
+#sec-top-row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     text-align: center;
-    padding-top: auto;
-    padding-bottom: auto;
 
 }
-#top-row{
-    border: 3px solid green;
-    padding-top: 30px;
-    padding-bottom: 30px;
-  }
+.menu-items{
+    border: 1px solid firebrick;
+
+}
+#product-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+}
+.product-images{
+    height: 200px;
+    width: auto;
+}
