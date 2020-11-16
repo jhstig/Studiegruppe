@@ -47,7 +47,8 @@ if(isset($_GET['cat'])) {
       <div id="sec-top-row">
           <!-- Menu -->
           <div class="menu-items">
-              <p id="rodvin">Rødvin</p>
+              <p>Rødvin</p>
+              
           </div>
           <div class="menu-items">
               <p id="hvidvin-menu">Hvidvin</p>
