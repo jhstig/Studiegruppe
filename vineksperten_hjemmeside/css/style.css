@@ -15,7 +15,7 @@
     text-align: center;
     height: 46px;
     margin-top: 26px;
-    
+
 }
 #search-box{
     width: auto;
@@ -25,11 +25,15 @@
 #sec-top-row{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    vertical-align: middle;
     text-align: center;
+    justify-content: center;
 
 }
 .menu-items{
-    border: 1px solid firebrick;
+    background-color: #41474A;
+    font-size: 20px;
+    height: 45px;
 
 }
 #product-grid{
