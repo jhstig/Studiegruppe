@@ -13,7 +13,7 @@ $product = getJson($_GET['cat'])[$_GET['pid']];
 <body>
   <header>
       <div id="top-row">
-          <a href="forside.php"><img id="img" src="billeder/vineksperten.png" id="logo"></a>    <!-- billede -->
+          <a href="forside.php"><img id="logo" src="billeder/vineksperten.png"></a>    <!-- billede -->
           <input class="top-row-btn" id="search-box" type="text" id="search" name="search" value="Søg"><!-- Søgefeldt -->
           <button class="top-row-btn">Søg</button>
           <button class="top-row-btn">Indkøbskurv</button><!-- Indkøbskurv -->
@@ -39,23 +39,30 @@ $product = getJson($_GET['cat'])[$_GET['pid']];
       </div>
   </header>
     <div id="product-wrapper">
-        <div id="produkt-billede">
+        <div id="product-name">
+          <?php echo $product['name']; ?>
+        </div>
+        <div id="product-image">
             <img src="<?php echo $product['image']; ?>">
         </div>
-        <div id="produktinfo-wrapper">
-            <div>
-                <div id="produktnavn"><?php echo $product['title']; ?></div>
-                <div id="produkt-type-cat"><?php echo $product['country']; ?></div>
-            </div>
-            <div id="produkt-pris"><?php echo $product['price']; ?></div>
+        <div id="product-price">
+          <?php echo $product['price']; ?>
+          <br>
+          <p>Stykpris</p>
         </div>
-        <br>
-        <div id="product-details">
-            <div><?php echo $product['specs']['other']; ?></div>
-            <div><?php echo $product['specs']['brand']; ?></div>
-            <div><?php echo $product['specs']['size']; ?></div>
-            <div><?php echo $product['specs']['abv']; ?></div>
+        <div id="amout">
+
+        </div>
+        <div id="add-to-cart">
+
+        </div>
+        <div id="product-description">
+
+        </div>
+        <div id="facts-wrapper">
+
         </div>
     </div>
 </body>
 </html>
+<!-- <div> <?php// echo $product['specs']['other']; ?></div> -->

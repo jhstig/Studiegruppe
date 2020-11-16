@@ -3,7 +3,7 @@ body {
 }
 
 
-#img{
+#logo{
     width: auto;
     height: 100px;
 }
@@ -54,7 +54,57 @@ body {
     grid-template-columns: 1fr 1fr 1fr;
     text-align: center;
 }
-.product-images{
+.frontpage-images{
     height: 200px;
     width: auto;
+}
+
+#product-wrapper {
+  display: grid;
+  grid-template-columns: 200px 500px;
+  grid-template-rows: 200px 300px auto;
+}
+
+#product-image {
+  height: 500px;
+  width: auto;
+}
+
+#produkt-billede {
+  grid-column: 1/2;
+  grid-row: 1/3;
+  background-color: black;
+}
+
+#produktinfo-wrapper {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  background-color: lightgrey;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+#produktnavn {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  font-size: 35px;
+}
+
+#produkt-type-cat {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  font-size: 25px;
+}
+
+#produkt-pris {
+  grid-column: 2/3;
+  grid-row: 1/3;
+  font-size: 70px;
+}
+
+#product-details {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  background-color: deeppink;
 }

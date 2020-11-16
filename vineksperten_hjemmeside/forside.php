@@ -38,7 +38,7 @@ if(isset($_GET['cat'])) {
 <body>
   <header>
       <div id="top-row">
-          <a href="forside.php"><img id="img" src="billeder/vineksperten.png" id="logo"></a>    <!-- billede -->
+          <a href="forside.php"><img id="logo" src="billeder/vineksperten.png"></a>    <!-- billede -->
           <input class="top-row-btn" id="search-box" type="text" id="search" name="search" value="Søg"><!-- Søgefeldt -->
           <button class="top-row-btn">Søg</button>
           <button class="top-row-btn">Indkøbskurv</button><!-- Indkøbskurv -->
@@ -72,7 +72,7 @@ if(isset($_GET['cat'])) {
               <h2><?php echo $products[$j]['title']; ?></h2>
             </div>
             <div>
-              <img class="product-images" src="<?php echo $products[$j]['image']; ?>">
+              <img class="frontpage-images" src="<?php echo $products[$j]['image']; ?>">
             </div>
             <div>
               <h3><?php echo $products[$j]['price']; ?></h3>
