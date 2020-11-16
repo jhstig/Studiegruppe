@@ -1,3 +1,7 @@
+body {
+  font-family: sans-serif;
+}
+
 
 #img{
     width: auto;
@@ -25,21 +29,26 @@
 #sec-top-row{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    vertical-align: middle;
-    text-align: center;
-    justify-content: center;
+    border-top: 1px solid lightgrey;
+
 
 }
 .menu-items{
     background-color: #41474A;
     font-size: 20px;
-    height: 45px;
-
+    height: 46px;
 }
+
 .menu-items p{
-    margin-top: 10px;
-
+    margin-top: 13px;
+    color: white;
+    text-align: center;
 }
+
+.menu-items:hover{
+    background-color: #666666;
+}
+
 #product-grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;

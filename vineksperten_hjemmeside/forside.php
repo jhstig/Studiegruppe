@@ -38,34 +38,32 @@ if(isset($_GET['cat'])) {
 <body>
   <header>
       <div id="top-row">
-          <img id="img" src="billeder/vineksperten.png" id="logo">    <!-- billede -->
+          <a href="forside.php"><img id="img" src="billeder/vineksperten.png" id="logo"></a>    <!-- billede -->
           <input class="top-row-btn" id="search-box" type="text" id="search" name="search" value="Søg"><!-- Søgefeldt -->
           <button class="top-row-btn">Søg</button>
           <button class="top-row-btn">Indkøbskurv</button><!-- Indkøbskurv -->
       </div>
-      <hr>
       <div id="sec-top-row">
           <!-- Menu -->
           <div class="menu-items">
               <p>Rødvin</p>
-              
           </div>
           <div class="menu-items">
-              <p id="hvidvin-menu">Hvidvin</p>
+              <p>Hvidvin</p>
           </div>
           <div class="menu-items">
-              <p id="Rosevin-menu">Rosévin</p>
+              <p>Rosévin</p>
 
           </div>
           <div class="menu-items">
-              <p id="spiritus-menu">Spiritus</p>
+              <p>Spiritus</p>
           </div>
           <div class="menu-items">
-              <p id="delikatesser-menu">Delikatesser</p>
+              <p>Delikatesser</p>
           </div>
       </div>
   </header>
-  
+
   <div id="product-grid">
     <?php for($j = 0; $j < count($products); $j++) { ?>
         <div class="individual-products">
