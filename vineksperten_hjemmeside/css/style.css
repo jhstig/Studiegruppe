@@ -136,6 +136,7 @@ body {
 #unit-title {
   grid-column: 2/3;
   border: 1px solid green;
+  background-color: lightgrey;
 }
 #test-id{
   grid-column: 2/3;
