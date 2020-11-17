@@ -147,5 +147,6 @@ body {
   border-bottom-left-radius: 4px;
   border-top-left-radius: 4px;
   border-right: 0px;
-  margin-left: 10px;
+  height: 40%;
+  width: 100%;
 }
