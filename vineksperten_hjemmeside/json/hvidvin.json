@@ -3,15 +3,15 @@
     "title": "Riesling Tradition",
     "cat": "Hvidvin",
     "price": "103,00",
-    "country": "Frankrig",
-    "region": "Alsace",
+    "country": "Land: Frankrig",
+    "region": "Område: Alsace",
     "image": "billeder/riesling_tradition.jpg",
     "specs": {
-      "size": "0,75L",
-      "brand": "Vins Sipp Mack",
-      "abv": "13,5%",
+      "size": "Mængde: 0,75L",
+      "brand": "Producent: Vins Sipp Mack",
+      "abv": "Vol: 13,5%",
       "other": "",
-      "year": "2018"
+      "year": "Årgang: 2018"
 
     }
   }

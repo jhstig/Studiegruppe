@@ -3,13 +3,13 @@
     "title": "Silent Pool Gin",
     "cat": "Spiritus",
     "price": "399,00",
-    "country": "Storbritannien",
-    "region": "England",
+    "country": "Land: Storbritannien",
+    "region": "Område: England",
     "image": "billeder/silent_pool_gin.jpg",
     "specs": {
-      "size": "0,70L",
-      "brand": "Silent Pool Distillers",
-      "abv": "43,0%",
+      "size": "Mængde: 0,70L",
+      "brand": "Producent: Silent Pool Distillers",
+      "abv": "Vol: 43,0%",
       "other": "",
       "year": ""
 

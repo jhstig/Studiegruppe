@@ -3,15 +3,15 @@
     "title": "Arrogant Frog Rosé",
     "cat": "Rosévin",
     "price": "75,00",
-    "country": "Frankrig",
-    "region": "Languedoc",
+    "country": "Land: Frankrig",
+    "region": "Område: Languedoc",
     "image": "billeder/arrogant_frog_rosé.jpg",
     "specs": {
-      "size": "0,75L",
-      "brand": "The Humble Winemaker",
-      "abv": "12,5%",
+      "size": "Mængde: 0,75L",
+      "brand": "Producent: The Humble Winemaker",
+      "abv": "Vol: 12,5%",
       "other": "",
-      "year": "2019"
+      "year": "Årgang: 2019"
     }
   }
 ]
