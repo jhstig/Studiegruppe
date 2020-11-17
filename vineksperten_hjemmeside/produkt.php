@@ -40,17 +40,33 @@ $product = getJson($_GET['cat'])[$_GET['pid']];
   </header>
     <div id="product-wrapper">
         <div id="product-name">
-          <?php echo $product['name']; ?>
+          <p><?php echo $product['title']; ?></p>
         </div>
         <div id="product-image">
             <img src="<?php echo $product['image']; ?>">
         </div>
         <div id="product-price">
-          <?php echo $product['price']; ?>
-          <br>
+          <h2><?php echo $product['price']; ?><span class="DKK"> DKK</span></h2>
           <p>Stykpris</p>
         </div>
-        <div id="amout">
+        <div id="amount">
+          <div id="unit-amount">
+            <select name="amount" data-controller="amount" id="input-amount" title="Indtast antal">
+              <option value="1" selected>1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select>
+          </div>
+          <div id="unit-title">
+            <p>stk.</p>
+          </div>
 
         </div>
         <div id="add-to-cart">
