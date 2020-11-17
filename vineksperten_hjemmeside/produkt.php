@@ -65,7 +65,6 @@ $product = getJson($_GET['cat'])[$_GET['pid']];
             </select>
           </div>
           <div id="unit-title">
-            <p>stk.</p>
           </div>
 
         </div>
