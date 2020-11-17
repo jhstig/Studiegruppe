@@ -65,16 +65,43 @@ $product = getJson($_GET['cat'])[$_GET['pid']];
             </select>
           </div>
           <div id="unit-title">
+            <p>Stk.</p>
           </div>
         </div>
         <div id="add-to-cart">
+          <button id="cart-button" type="submit" name="cartbutton">TILFØJ TIL KURV <i class="fa fa-shopping-cart"></i></button>
+          <button style="font-size: 24px">Button <i class="fa fa-shopping-cart"></i></button>
+          <i style="font-size:24px" class="fa">&#xf07a;</i>
 
         </div>
         <div id="product-description">
-
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </div>
         <div id="facts-wrapper">
-
+          <div class="fact-cells">
+          </div>
+          <div class="fact-cells">
+          </div>
+          <div class="fact-cells">
+          </div>
+          <div class="fact-cells">
+          </div>
+          <div class="fact-cells">
+          </div>
+          <div class="fact-cells">
+          </div>
+          <div class="fact-cells">
+          </div>
+          <div class="fact-cells">
+          </div>
+          <div class="fact-cells">
+          </div>
+          <div class="fact-cells">
+          </div>
+          <div class="fact-cells">
+          </div>
+          <div class="fact-cells">
+          </div>
         </div>
     </div>
 </body>
