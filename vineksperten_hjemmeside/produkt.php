@@ -67,7 +67,6 @@ $product = getJson($_GET['cat'])[$_GET['pid']];
           <div id="unit-title">
             <p>stk.</p>
           </div>
-
         </div>
         <div id="add-to-cart">
 
