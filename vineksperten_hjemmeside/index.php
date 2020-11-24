@@ -17,7 +17,7 @@
     Kodeord: <input type="password" id="password-field">
     <br>
     <button>Log ind</button>
-    <button>Registrer bruger</button>
+    <a href="registrer-bruger.php"></a>
     <br><br>
     list of users:
     <ul>
