@@ -317,3 +317,32 @@ button {
   grid-row: 14/15;
   margin-bottom: 20px;
 }
+#checkout-wrapper{
+  display: grid;
+  grid-template-columns: 3;
+  width: 800px;
+}
+#checkout-left-wrapper{
+  display: grid;
+  grid-template-rows: 3;
+}
+#checkout-lorem{
+  grid-row: 1/2;
+}
+#checkout-commercial{
+  grid-row: 2/3;
+}
+#checkout-purchasse{
+  grid-row: 3/4;
+}
+#checkout-products-picture{
+  display: grid;
+  grid-template-rows: auto;
+}
+#checkout-products-descriptions{
+  display: grid;
+  grid-template-rows: auto;
+}
+#checkout-sub-total{
+  
+}
