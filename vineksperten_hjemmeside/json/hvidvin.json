@@ -10,8 +10,56 @@
       "size": "Mængde: 0,75L",
       "brand": "Producent: Vins Sipp Mack",
       "abv": "Vol: 13,5%",
-      "other": "",
+      "other": "Sipp Macks Riesling Tradition er både fedmefyldt og syresprød økologisk Riesling, som rammer en bred smagspalet. Al høst fra de kalkstenrige marker omkring Hunawihr og den efterfølgende selektering foregår ved håndkraft. Herefter presses de forsigtigt for at bevare smag og aroma maksimalt. Gæringen finder sted i rustfrie ståltanke under temperaturkontrol, hvorefter vinen lagrer i 4 måneder med gærresterne (lees) på stål. Vinens strågule farve efterfølges af friske og klassiske Riesling-aromaer af citrus, gule æbler, hvid fersken, mineralitet og en diskret smørtone. I munden ruller den med slank og middelkoncentreret frugt over tungen, mens den friske, mundvandsprovokerende syre giver lyst til endnu et glas. En frisk og afbalanceret Riesling, som vil være en oplagt ledsager til salater, lyse fiskeretter eller gedeost.",
       "year": "Årgang: 2018"
+
+    }
+  },
+  {
+    "title": "Macon Chardonnay",
+    "cat": "Hvidvin",
+    "price": "175,00",
+    "country": "Land: Frankrig",
+    "region": "Område: Bourgogne",
+    "image": "billeder/macon_chardonnay.jpg",
+    "specs": {
+      "size": "Mængde: 0,75L",
+      "brand": "Producent: Domaine Denis Jeandeau",
+      "abv": "Vol: 13,0%",
+      "other": "Mâconnais er et af de få steder i Bourgogne, hvor man rent faktisk fortsat kan finde gode vine til prisen. For mens denne sydligt beliggende del af Bourgogne venter på klassificeringen af markerne - på samme måde, som det er tilfældet i den nordligere beliggende del af denne eftertragtede region - ja, så kan der på trods af de seneste års prisstigninger stadig anskaffes imponerende gode Bourgogne-køb her. Denne Macon En Serre fra den unge komet Denis Jeandeau er et klasse-eksempel herpå. Selvom Denis er en ung mand, har han en særdeles (gammeldags) og traditionel tilgang til vindyrkningen og vinificeringen. Markerne dyrkes efter biodynamiske principper - fx ofte med pløjning ved hjælp af hest. Derefter vinificeres vinen på traditionel vis med høst og selektering i hånden, naturlig gæring, som ofte sker med en andel hele klaser, samt lagring med gærcellerne (lees) på en kombination af stål og brugte fade. Vinen folder sig flot ud i næsen, hvor den viser givende aromaer af citrus, gule ferskner, gule æbler, hvide blomster og knuste sten. I smagen ruller den middelfyldige frugt sig spændstigt og med læskende syre over tungen, mens eftersmagen med fin længde og på en befriende afbalanceret og fokuseret måde understreger dette gode Bourgogne-køb! Nyd den ved 10-13 grader til retter med hvid fisk eller en grydestegt kylling.",
+      "year": "Årgang: 2018"
+
+    }
+  },
+  {
+    "title": "Hook & Ladder Chardonnay",
+    "cat": "Hvidvin",
+    "price": "149,00",
+    "country": "Land: USA",
+    "region": "Område: Californien",
+    "image": "billeder/hook_&_ladder_chardonnay.jpg",
+    "specs": {
+      "size": "Mængde: 0,75L",
+      "brand": "Producent: Hook & Ladder",
+      "abv": "Vol: 14,2%",
+      "other": "Fra marker ved Olivet-området i Russian River Valley lige vest for Santa Rosa kommer denne cremede og super-charmerende Chardonnay. Området her er i høj grad begunstiget af klimaet fra Stillehavet ca. 15 km mod vest, hvor tågen skabt af Stillehavets kølige havstrømme ofte ligger som en nedkølende dyne over vinmarkerne og dermed forlænger vækstsæsonen med mere elegante vine til følge. Hook & Ladder Chardonnay er presset og afstilket lige efter høsten, hvorefter vinen gærer under kølige forhold på franske fade. Vinen gennemgår malolaktisk gæring, hvor æblesyren omdannes til den mere cremede mælkesyre, og lagres desuden ”sur lie” (på gærresterne), hvor en mindre andel foregår på nye fade. Vinen står strågul i farven med intense og charmerende aromaer af citrus, fersken, honningmelon, smør, brødkrummer og en diskret vaniljetone. I munden går stilen igen, hvor den cremede frugt viser både fylde og fedme. Syren skaber på en diskret måde den fornødne saftige friskhed, mens eftersmagen med både længde og fylde afslutter denne publikumspleaser af en amerikansk Chardonnay.",
+      "year": "Årgang: 2018"
+
+    }
+  },
+  {
+    "title": "Via Terra Selection Blanco",
+    "cat": "Hvidvin",
+    "price": "89,95",
+    "country": "Land: Spanien",
+    "region": "Område: Terra Alta",
+    "image": "billeder/via_terra_selection_blanco.jpg",
+    "specs": {
+      "size": "Mængde: 0,75L",
+      "brand": "Producent: Edetaria, S.L.",
+      "abv": "Vol: 13,0%",
+      "other": "Via Terra Blanco er Edetàrias svar på den prisvenlige udgave af en hvid Terra Alta-vin. Vinen er lavet på Grenache Blanc fra vingårdens parceller ved Gandesa, som høstes af to omgange. Den første høst bidrager med forfriskende frugt, mens druerne fra den sene høst bidrager til struktur og kompleksitet.  Man ønsker at udtrykke elegance frem for power - og frugtige vine uden overdrevent brug af fad. Derfor arbejdes der også benhårdt i marken med manuel høst, lave høstudbytter og en ekstrem selektering af druerne - både i forbindelse med høsten og senere ved ankomsten til vineriet, hvor druerne desuden afkøles. Efter gæringen blandes mosten fra den tidlige og sene høst, hvorefter vinen lagres sur lie (på kvaset) inden frigivelsen. Via Terra Blanco er en givende, fokuseret og sprød hvidvin, hvor man virkelig får god vin for skillingen. Vinen fremstår klar gul i farven med forfriskende aromaer af citrus, hvid fersken, voks, æbler, knuste sten og en diskret tone af vingummi. I munden viser den for en hvidvin i denne prisklasse fin frugtkoncentration, mens den sprøde syre og fine mineralitet gør den særdeles forfriskende og særdeles madvenlig.",
+      "year": "Årgang: 2019"
 
     }
   }
