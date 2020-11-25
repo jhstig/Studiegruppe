@@ -177,3 +177,6 @@ body {
 
   border: 1px solid lightgrey;
 }
+#cart-welcome-wrapper button{
+width:100%
+}
