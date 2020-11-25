@@ -9,7 +9,10 @@
         for($i = 0; $i < count($users); $i++){
             if($users[$i]['email'] === $_POST['email'] && $users[$i][$users[$i]['email']]['password'] === $_POST['password']){
                 echo "<p>email & password match</p>";
-                $_SESSION['username'] = $_POST['email'];
+                $username = $users[$i]['email'];
+                $_SESSION['username'] = $username;
+                $_SESSION['user-id'] = $i;
+                header("Location: forside.php");
             }
             //&& $users[$i][$_POST["email"]][$_POST["password"]]==$users[$i][$_POST["email"]]["password"]
         }

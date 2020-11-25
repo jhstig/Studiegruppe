@@ -1,8 +1,12 @@
 <?php
 session_start();
 $username = $_SESSION['username'];
+$userid = $_SESSION['user-id'];
+
 include('functions.php');
 $cats = getJson('json/cat.json');
+
+$users = getJson('json/accounts.json');
 
 $catTitle = '';
 $products = [];
@@ -43,7 +47,10 @@ if(isset($_GET['cat'])) {
           <a href="forside.php"><img id="logo" src="billeder/vineksperten.png"></a>    <!-- billede -->
           <input class="top-row-btn" id="search-box" type="text" id="search" name="search" value="Søg"><!-- Søgefeldt -->
           <button class="top-row-btn">Søg</button>
-          <button class="top-row-btn">Indkøbskurv</button><!-- Indkøbskurv -->
+          <div id="cart-welcome-wrapper">
+            <button class="top-row-btn">Indkøbskurv</button><!-- Indkøbskurv -->
+            <p id="login-name">Velkommen <?php echo $users[$userid][$username]['name'] ?></p>
+          </div>
       </div>
       <div id="sec-top-row">
           <!-- Menu -->
