@@ -17,6 +17,7 @@
         {
             $users[] = array("email" => $_POST["email"]);
             $users[count($users)-1][$_POST["email"]] = array("password"=>$_POST["password"], "name"=>$_POST['name'], "street"=>$_POST["street"], "city"=>$_POST["city"], "zip"=>$_POST["zip"]);
+            $users[count($users)-1]['cart']=array("");
             $jsonUsers = json_encode($users);
             file_put_contents("json/accounts.json", $jsonUsers);
             header("Location: index.php");

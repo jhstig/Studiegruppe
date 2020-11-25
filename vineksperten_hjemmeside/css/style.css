@@ -90,6 +90,8 @@ body {
 }
 
 #product-image img {
+  overflow: hidden;
+  margin-bottom: 160px;
   width: 45%;
   height: 400px;
 

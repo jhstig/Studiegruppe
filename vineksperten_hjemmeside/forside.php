@@ -45,7 +45,7 @@ if(isset($_GET['cat'])) {
   <header>
       <div id="top-row">
           <a href="forside.php"><img id="logo" src="billeder/vineksperten.png"></a>    <!-- billede -->
-          <input class="top-row-btn" id="search-box" type="text" id="search" name="search" value="Søg"><!-- Søgefeldt -->
+          <input class="top-row-btn" id="search-box" type="text" id="search" name="search" placeholder="Søg"><!-- Søgefeldt -->
           <button class="top-row-btn">Søg</button>
           <div id="cart-welcome-wrapper">
             <button class="top-row-btn">Indkøbskurv</button><!-- Indkøbskurv -->
