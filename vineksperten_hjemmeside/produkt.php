@@ -70,8 +70,6 @@ $product = getJson($_GET['cat'])[$_GET['pid']];
         </div>
         <div id="add-to-cart">
           <button id="cart-button" type="submit" name="cartbutton">TILFØJ TIL KURV <i class="fa fa-shopping-cart"></i></button>
-          <button style="font-size: 24px">Button <i class="fa fa-shopping-cart"></i></button>
-          <i style="font-size:24px" class="fa">&#xf07a;</i>
 
         </div>
         <div id="product-description">
@@ -79,28 +77,40 @@ $product = getJson($_GET['cat'])[$_GET['pid']];
         </div>
         <div id="facts-wrapper">
           <div class="fact-cells">
+          Land
           </div>
           <div class="fact-cells">
+          <p><?php echo $product['country']; ?></p>
           </div>
           <div class="fact-cells">
+          Område
           </div>
           <div class="fact-cells">
+          <p><?php echo $product['region'];?></p>
           </div>
           <div class="fact-cells">
+          Mængde
           </div>
           <div class="fact-cells">
+          <p><?php echo $product['specs']['size']; ?></p>
           </div>
           <div class="fact-cells">
+          Producent
           </div>
           <div class="fact-cells">
+          <p><?php echo $product['specs']['brand']; ?></p>
           </div>
           <div class="fact-cells">
+          Vol
           </div>
           <div class="fact-cells">
+          <p><?php echo $product['specs']['abv']; ?></p>
           </div>
           <div class="fact-cells">
+          Årgang
           </div>
           <div class="fact-cells">
+          <p><?php echo $product['specs']['year']; ?></p>
           </div>
         </div>
     </div>

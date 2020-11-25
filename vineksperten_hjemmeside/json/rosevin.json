@@ -3,30 +3,30 @@
     "title": "Arrogant Frog Rosé",
     "cat": "Rosévin",
     "price": "75,00",
-    "country": "Land: Frankrig",
-    "region": "Område: Languedoc",
+    "country": "Frankrig",
+    "region": "Languedoc",
     "image": "billeder/arrogant_frog_rosé.jpg",
     "specs": {
-      "size": "Mængde: 0,75L",
-      "brand": "Producent: The Humble Winemaker",
-      "abv": "Vol: 12,5%",
+      "size": "0,75L",
+      "brand": "The Humble Winemaker",
+      "abv": "12,5%",
       "other": "Druerne er høstet på nogle af The Humble Winemakers marker i de 5 vigtigste dale i Languedoc. Markerne er øst- og sydvendte godt beskyttet mod nordenvinden af en stor pinjeskov. Vinstokkene er mellem 15 og 30 år gamle og gror på en jordbund af grus, ler og kalksten. Høsten foregår mekanisk i de meget tidlige morgentimer. Alle druer afstilkes inden fermenteringen, som foregår i temperaturkontrollerede ståltanke over en periode på 2 uger. Vinen har en intens rosa farve. Duften er kompleks med kirsebær og blomsteraromaer og noter af sød, moden frugt. I munden er den meget velafbalanceret med flot frugt og en lang finish. Server den ved 10-12 grader til salater, lyst kød og lette frokostretter.",
-      "year": "Årgang: 2019"
+      "year": "2019"
     }
   },
   {
     "title": "Pastel Rosato Veronese",
     "cat": "Rosévin",
     "price": "69,95",
-    "country": "Land: Italien",
-    "region": "Område: Veneto",
+    "country": "Italien",
+    "region": "Veneto",
     "image": "billeder/pastel_rosato_veronese.jpg",
     "specs": {
-      "size": "Mængde: 0,75L",
-      "brand": "Producent: Accordini",
-      "abv": "Vol: 12,0%",
+      "size": "0,75L",
+      "brand": "Accordini",
+      "abv": "12,0%",
       "other": "Druerne til den sprøde Pastel Rosé er dyrket på bjerget, som ligger umiddelbart bag familien Accordinis vingård. Bjerget hedder Mount Pastello, hvilket har givet navn til vinen. Vinmarken ligger i ca. 1100 meters højde over havet. Vinen har en flot kongen af Danmark-farve og byder på saftige bær, friske vilde blomster og en fin mineralitet. Med sin friske, livlige og saftige smag med en lille snert af sødme er dette en klassisk rosé fra Veneto. Den vil gøre sig godt som terrassevin såvel som til lettere sommerretter.",
-      "year": "Årgang: 2019"
+      "year": "2019"
     }
   }
 ]

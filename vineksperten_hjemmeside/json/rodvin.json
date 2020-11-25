@@ -3,15 +3,15 @@
     "title": "Amarone Classico",
     "cat": "Rødvin",
     "price": "635,00",
-    "country": "Land: Italien",
-    "region": "Område: Veneto",
+    "country": "Italien",
+    "region": "Veneto",
     "image": "billeder/amarone.jpg",
     "specs": {
-      "size": "Mængde: 0,75L",
-      "brand": "Producent: Accordini",
-      "abv": "Vol: 16,6%",
+      "size": "0,75L",
+      "brand": "Accordini",
+      "abv": "16,6%",
       "other": "Dette er efterfølgeren til vinen, der blev testvinder i Gastromands store Amarone-test i december 2018. Il Fornetto er Accordinis luksus-flagskib af en Amarone, som der kun laves stærkt begrænsede mængder af - og udelukkende i særligt god årgange. Vinen er produceret udelukkende på druer fra marken Il Fornetto. Al høst og den nænsomme selektering foregår selvfølgelig ved håndkraft. Efter sortering bliver alle druer tørret på et velventileret loft i ca. 120 dage, hvorefter druerne presses. Vinen er igennem en længerevarende gæringsprocess og lagres efterfølgende på egetræsfade i 4 år. Slutteligt lagrer vinen desuden et enkelt år på flaske før endelig frigivelse. Il Fornetto er en seriøs Amarone med en dyb rød farve og intense aromaer af blommer, krydret vaniljearoma og tørrede frugter. I munden ruller den med maskulin, fedmefyldt og fløjlsblød frugt over tungen, mens det velsmurte og strukturerede tanninskelet vidner om en Amarone med et langt liv foran sig. Eftersmagen er uhyggelig lang og understreger på flot vis en Amarone-oplevelse ud over det sædvanlige.",
-      "year": "Årgang: 2012"
+      "year": "2012"
 
     }
   },
@@ -19,15 +19,15 @@
     "title": "Arrogant Frog Syrah-Viognier",
     "cat": "Rødvin",
     "price": "59,95",
-    "country": "Land: Frankrig",
-    "region": "Område: Languedoc",
+    "country": "Frankrig",
+    "region": "Languedoc",
     "image": "billeder/syrah_viognier.jpg",
     "specs": {
-      "size": "Mængde 0,75L",
+      "size": "0,75L",
       "brand": "The Humble Winemaker",
       "abv": "13,5%",
       "other": "Arrogant Frog Syrah-Viognier er en særdeles vellavet sydfransk vin, der med sin bløde, frugtrige fremtoning og venlige tanniner charmer sig ind hos flertallet. Og selvom den nye årgang endnu ikke er anmeldt, er det ikke helt tilfældigt, at den på tværs af årgange er en af vores bedst sælgende vine - særligt til prisen. For anmelderne har nemlig været rigtig, rigtig glade for de tidligere årgange! Druerne er høstet på The Humble Winemakers marker i de fem vigtigste dale i Languedoc. Vinstokkene er mellem 15 og 30 år gamle. Høsten foregår mekanisk i de meget tidlige morgentimer. Alle druer afstilkes inden fermenteringen, som foregår i temperaturkontrollerede ståltanke over en periode på 2 uger. Under processen sker daglige omrøringer for maksimal udtrækning af farvestoffer. En del af vinen lagrer efterfølgende på egefade i nogle få måneder. Vinen har en dyb lilla farve og en elegant næse med mørke bær, trøfler, klassiske Syrah-kærnemælkstoner og peber. I munden er den en sand charmør. Her er ikke tale om overkompliceret og kompleks vin med skarpe tanniner og bitre toner. Nej, smagen er nemlig rund, fyldig, ukompliceret og på samme tid afbalanceret med silkebløde tanniner og med en lang, behagelig eftersmag. Imponerende meget Syrah til prisen, en sand publikumspleaser til festen - eller blot en rigtig god vin til frikadellen.",
-      "year": "Årgang: 2019"
+      "year": "2019"
 
     }
   },
@@ -35,15 +35,15 @@
     "title": "Barbera D'Asti",
     "cat": "Rødvin",
     "price": "99,95",
-    "country": "Land: Italien",
-    "region": "Område: Piemonte",
+    "country": "Italien",
+    "region": "Piemonte",
     "image": "billeder/barbera_dasti.jpg",
     "specs": {
-      "size": "Mængde 0,75L",
+      "size": "0,75L",
       "brand": "Scagliola",
       "abv": "14,5%",
       "other": "Barbera d'Asti, Frem er Scagliolas mest populære Barbera, som der afhængigt af årgangen produceres cirka 40.000 flasker af. Vinen kommer fra vinmarker beliggende i ca. 400 m.o.h. med en jordbund af kalksten og ler. Her arbejdes efter økologiske principper (dog uden at være certificeret økologisk) med stor respekt for naturen. Der foretages grøn høst med lave høstudbytter til følge. Al høst og den efterfølgende selektering foregår ved håndkraft, hvorefter vinen lagres 12 måneder på fade. Barbera d'Asti, Frem er en super-charmer af en Barbera, som folk med hang til den let moderne Barbera-stil vil være rigtig glade for. Vinen fremstår mørk-rød i farven med givende, indsmigrende aromaer af modne hindbær, kirsebær, blommer, urter og lakrids. Smagen følger smukt op, hvor den silkebløde frugt balanceres af den så klassiske, mundvandsdrivende Barbera-syre, mens den middellange, afbalancerede eftersmag på smuk vis fuldender endnu en charmerende udgave af denne populære storsællert.",
-      "year": "Årgang: 2018"
+      "year": "2018"
 
     }
   },
@@ -51,15 +51,15 @@
     "title": "Capitoso",
     "cat": "Rødvin",
     "price": "65,00",
-    "country": "Land: Spanien",
-    "region": "Område: Rioja",
+    "country": "Spanien",
+    "region": "Rioja",
     "image": "billeder/capitoso.jpg",
     "specs": {
-      "size": "Mængde 0,75L",
+      "size": "0,75L",
       "brand": "Bodegas Altanza",
       "abv": "13,5%",
       "other": "Capitoso er en prisbasker af en spansk semi-crianza, der med sin letdrikkelige og charmerende stil rammer et virkelig bredt publikum. Det er vinen, der med årgang 2015 vandt guld i både Mundus Vini og Concours International de Lyon, og som i årgang 2016 igen imponerede anmelderne med 5 flotte stjerner i Politiken. Semi-crianza er en betegnelse, der kan benyttes, når vinen ikke lagres lige så længe som tilfældet med en Crianza, hvor lovgivningen (for rødvinene) dikterer min. 1 års fadlagring. Capitoso har kun lagret på egetræsfad i 6 måneder, hvilket der giver en mere letdrikkelig, frugtdrevet vin. Capitoso fremstår med en brilliant rød farve med violette reflekser og frugtdrevede aromaer  af røde bær, kirsebær, lakrids, mandler og diskrete vaniljetoner. I munden er den frisk, frugtig og letløbende med en fin balance mellem den intense, unge frugt og den diskrete fadlagring. Nyd den til lettere retter ved en temperatur på 15-16 grader.",
-      "year": "Årgang: 2018"
+      "year": "2018"
 
     }
   }
