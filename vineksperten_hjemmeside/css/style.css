@@ -190,3 +190,128 @@ body {
 .fact-cells p {
   margin-top: -0px;
 }
+
+#login-box {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  background-color: #5F021F;
+  text-align: center;
+  height: 300px;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#login-logo {
+  grid-row: 1/2;
+  width: 100%;
+  height: auto;
+}
+
+#email-box {
+  grid-row: 2/3;
+  color: white;
+}
+
+#password-box {
+  grid-row: 3/4;
+  color: white;
+}
+
+#login-btn {
+  grid-row: 4/5;
+}
+
+#register-user {
+  grid-row: 5/6;
+  color: white;
+  margin-bottom: 25px;
+}
+
+#login-field {
+  margin-left: 20px;
+}
+
+button {
+  background-color: white;
+  color: black;
+  height: 30px;
+  width: 120px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a {
+  color: white;
+}
+
+#register-box {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  background-color: #5F021F;
+  text-align: center;
+  height: 630px;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+}
+
+#register-logo {
+  grid-row: 1/2;
+  width: 100%;
+  height: auto;
+
+#email-text {
+  grid-row: 2/3;
+}
+
+#email-input {
+  grid-row: 3/4;
+}
+
+#password-text {
+  grid-row: 4/5;
+}
+
+#password-input {
+  grid-row: 5/6;
+}
+
+#name-text {
+  grid-row: 6/7;
+}
+
+#name-input {
+  grid-row: 7/8;
+}
+
+#street-text {
+  grid-row: 8/9;
+}
+
+#street-input {
+  grid-row: 9/10;
+}
+
+#city-text {
+  grid-row: 10/11;
+}
+
+#city-input {
+  grid-row: 11/12;
+}
+
+#zip-text {
+  grid-row: 12/13;
+}
+
+#zip-input {
+  grid-row: 13/14;
+}
+
+#register-user-btn {
+  grid-row: 14/15;
+  margin-bottom: 20px;
+}
