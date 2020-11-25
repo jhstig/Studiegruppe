@@ -1,6 +1,25 @@
 <?php
+    session_start();
     include('functions.php');
     $users = getJson('json/accounts.json');
+
+
+    if(isset($_POST['email'])){
+        //echo [$_POST['email']];
+        for($i = 0; $i < count($users); $i++){
+            if($users[$i]['email'] === $_POST['email'] && $users[$i][$users[$i]['email']]['password'] === $_POST['password']){
+                echo "<p>email & password match</p>";
+                $_SESSION['username'] = $_POST['email'];
+            }
+            //&& $users[$i][$_POST["email"]][$_POST["password"]]==$users[$i][$_POST["email"]]["password"]
+        }
+    } else{
+        echo "skriv login detaljer";
+    }
+    
+
+    
+
 ?>
 
 
@@ -12,12 +31,16 @@
     <title>Document</title>
 </head>
 <body>
-    Email: <input type="text" id="login-field">
-    <br>
-    Kodeord: <input type="password" id="password-field">
-    <br>
-    <button>Log ind</button>
-    <a href="registrer-bruger.php"></a>
+    <form action="index.php" method="post">
+        Email: <input type="text" id="login-field" name="email">
+        <br>
+        Kodeord: <input type="password" name="password" id="password-field">
+        <br>
+        <button type="submit">Log ind</button>
+    </form>
+    
+    
+    <a href="register-user.php">Registrer bruger</a>
     <br><br>
     list of users:
     <ul>

@@ -1,7 +1,7 @@
 <?php
     //include('functions.php');
     $jsonUsers = file_get_contents('json/accounts.json');
-    $users = json_decode($jsonUsers);
+    $users = json_decode($jsonUsers, true);
 
     if(isset($_POST["email"]))   {
         $email = $_POST["email"];
@@ -11,7 +11,7 @@
         $city = $_POST["city"];
         $zip = $_POST["zip"];
         if(trim($email) == "" || trim($userPassword) == "" || trim($name) == "" || trim($street)=="" || trim($city)=="" || trim($zip)=="")  {
-            echo "Du har ikke udfyldt alle felter";
+            echo "<p>Du har ikke udfyldt alle felter</p>";
         }
         elseif(strpos($email, "@")!==false && strpos($email, ".")!==false)
         {
