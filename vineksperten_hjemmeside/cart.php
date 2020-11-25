@@ -42,7 +42,6 @@ $totalPrice = 0;
                 <div class="checkout-descriptions">
                     <p id="product-title-p"><?php echo $users[$userid]['cart']["item" . $i]['title']; ?></p>
                     <p id="product-amount"><?php echo $users[$userid]['cart']["item" . $i]['amount']; ?></p>
-                    
                 </div>
                 <?php } ?>
                 <!--            -->
@@ -63,7 +62,7 @@ $totalPrice = 0;
                     <br>
                 </div>
             <?php } ?>
-            <?php echo "TOTAL: " . $totalPrice; ?>
+            <p><?php echo "TOTAL: " . $totalPrice; ?></p>
         </div>
     </div>
 </body>
