@@ -38,7 +38,7 @@
           <a href="forside.php"><img id="logo" src="billeder/vineksperten.png"></a>    <!-- billede -->
           <input class="top-row-btn" id="search-box" type="text" id="search" name="search" value="Søg"><!-- Søgefeldt -->
           <button class="top-row-btn">Søg</button>
-          <button class="top-row-btn">Indkøbskurv</button><!-- Indkøbskurv -->
+          <a href="cart.php"><button class="top-row-btn">Indkøbskurv</button></a><!-- Indkøbskurv -->
       </div>
       <div id="sec-top-row">
           <!-- Menu -->

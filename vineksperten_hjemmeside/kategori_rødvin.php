@@ -48,7 +48,7 @@ if(isset($_GET['cat'])) {
           <input class="top-row-btn" id="search-box" type="text" id="search" name="search" value="Søg"><!-- Søgefeldt -->
           <button class="top-row-btn">Søg</button>
           <div id="cart-welcome-wrapper">
-            <button class="top-row-btn">Indkøbskurv</button><!-- Indkøbskurv -->
+            <a href="cart.php"><button class="top-row-btn">Indkøbskurv</button></a><!-- Indkøbskurv -->
             <p id="login-name">Velkommen <?php echo $users[$userid][$username]['name'] ?></p>
           </div>
       </div>
