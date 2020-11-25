@@ -15,11 +15,11 @@ if(isset($_GET['cat'])) {
   //Jeg er pt tom
 } else {
   for($i = 0; $i < count($cats); $i++) {
-    $addedProds = getJson($cats[$i]['file']);
+    $addedProds = getJson($cats[4]['file']);
 
     for($k = 0; $k < count($addedProds); $k++) {
       $addedProds[$k]['pid'] = $k;
-      $addedProds[$k]['cat'] = $cats[$i]['file'];
+      $addedProds[$k]['cat'] = $cats[4]['file'];
       $products[] = $addedProds[$k];
     }
   }
@@ -38,14 +38,14 @@ if(isset($_GET['cat'])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vineksperten</title>
+    <title>Vineksperten - Delikatesser</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <header>
       <div id="top-row">
           <a href="forside.php"><img id="logo" src="billeder/vineksperten.png"></a>    <!-- billede -->
-          <input class="top-row-btn" id="search-box" type="text" id="search" name="search" placeholder="Søg"><!-- Søgefeldt -->
+          <input class="top-row-btn" id="search-box" type="text" id="search" name="search" value="Søg"><!-- Søgefeldt -->
           <button class="top-row-btn">Søg</button>
           <div id="cart-welcome-wrapper">
             <button class="top-row-btn">Indkøbskurv</button><!-- Indkøbskurv -->
