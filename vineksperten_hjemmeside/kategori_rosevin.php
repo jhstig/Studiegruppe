@@ -15,11 +15,11 @@ if(isset($_GET['cat'])) {
   //Jeg er pt tom
 } else {
   for($i = 0; $i < count($cats); $i++) {
-    $addedProds = getJson($cats[3]['file']);
+    $addedProds = getJson($cats[2]['file']);
 
     for($k = 0; $k < count($addedProds); $k++) {
       $addedProds[$k]['pid'] = $k;
-      $addedProds[$k]['cat'] = $cats[$i]['file'];
+      $addedProds[$k]['cat'] = $cats[2]['file'];
       $products[] = $addedProds[$k];
     }
   }
@@ -55,19 +55,19 @@ if(isset($_GET['cat'])) {
       <div id="sec-top-row">
           <!-- Menu -->
           <div class="menu-items">
-              <a href="kategori_rødvin.php"<p>Rødvin</p></a>
+              <a href="kategori_rødvin.php"><p>Rødvin</p></a>
           </div>
           <div class="menu-items">
-              <a href="kategori_hvidvin.php"<p>Hvidvin</p></a>
+              <a href="kategori_hvidvin.php"><p>Hvidvin</p></a>
           </div>
           <div class="menu-items">
-              <a href="kategori_rosevin.php"<p>Rosévin</p></a>
+              <a href="kategori_rosevin.php"><p>Rosévin</p></a>
           </div>
           <div class="menu-items">
-              <a href="kategori_spiritus.php"<p>Spiritus</p></a>
+              <a href="kategori_spiritus.php"><p>Spiritus</p></a>
           </div>
           <div class="menu-items">
-              <a href="kategori_delikatesser.php"<p>Delikatesser</p></a>
+              <a href="kategori_delikatesser.php"><p>Delikatesser</p></a>
           </div>
       </div>
   </header>

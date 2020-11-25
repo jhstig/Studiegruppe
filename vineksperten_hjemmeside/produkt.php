@@ -2,7 +2,7 @@
   session_start();
   $username = $_SESSION['username'];
   $userid = $_SESSION['user-id'];
-  
+
 
   include('functions.php');
   $product = getJson($_GET['cat'])[$_GET['pid']];
@@ -43,20 +43,19 @@
       <div id="sec-top-row">
           <!-- Menu -->
           <div class="menu-items">
-              <p>Rødvin</p>
+              <a href="kategori_rødvin.php"><p>Rødvin</p></a>
           </div>
           <div class="menu-items">
-              <p>Hvidvin</p>
+              <a href="kategori_hvidvin.php"><p>Hvidvin</p></a>
           </div>
           <div class="menu-items">
-              <p>Rosévin</p>
-
+              <a href="kategori_rosevin.php"><p>Rosévin</p></a>
           </div>
           <div class="menu-items">
-              <p>Spiritus</p>
+              <a href="kategori_spiritus.php"><p>Spiritus</p></a>
           </div>
           <div class="menu-items">
-              <p>Delikatesser</p>
+              <a href="kategori_delikatesser.php"><p>Delikatesser</p></a>
           </div>
       </div>
   </header>
@@ -72,7 +71,7 @@
           <h2><?php echo $product['price']; ?><span class="DKK"> DKK</span></h2>
           <p>Stykpris</p>
         </div>
-        
+
           <div id="amount">
             <div id="unit-amount">
               <select name="amount" data-controller="amount" id="input-amount" title="Indtast antal">
@@ -92,10 +91,10 @@
               <p>Stk.</p>
             </div>
           </div>
-          <div id="add-to-cart">  
+          <div id="add-to-cart">
             <button id="cart-button" type="submit" name="cartbutton">TILFØJ TIL KURV <i class="fa fa-shopping-cart"></i></button>
           </div>
-        
+
         <div id="product-description">
           <p><?php echo $product['specs']['other']; ?></p>
         </div>

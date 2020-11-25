@@ -55,19 +55,19 @@ if(isset($_GET['cat'])) {
       <div id="sec-top-row">
           <!-- Menu -->
           <div class="menu-items">
-              <a href="kategori_rødvin.php"<p>Rødvin</p></a>
+              <a href="kategori_rødvin.php"><p>Rødvin</p></a>
           </div>
           <div class="menu-items">
-              <a href="kategori_hvidvin.php"<p>Hvidvin</p></a>
+              <a href="kategori_hvidvin.php"><p>Hvidvin</p></a>
           </div>
           <div class="menu-items">
-              <a href="kategori_rosevin.php"<p>Rosévin</p></a>
+              <a href="kategori_rosevin.php"><p>Rosévin</p></a>
           </div>
           <div class="menu-items">
-              <a href="kategori_spiritus.php"<p>Spiritus</p></a>
+              <a href="kategori_spiritus.php"><p>Spiritus</p></a>
           </div>
           <div class="menu-items">
-              <a href="kategori_delikatesser.php"<p>Delikatesser</p></a>
+              <a href="kategori_delikatesser.php"><p>Delikatesser</p></a>
           </div>
       </div>
   </header>
