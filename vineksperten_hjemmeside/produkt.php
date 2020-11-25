@@ -1,6 +1,28 @@
 <?php
-include('functions.php');
-$product = getJson($_GET['cat'])[$_GET['pid']];
+  session_start();
+  $username = $_SESSION['username'];
+  $userid = $_SESSION['user-id'];
+  
+
+  include('functions.php');
+  $product = getJson($_GET['cat'])[$_GET['pid']];
+  $jsonUsers = file_get_contents('json/accounts.json');
+  $users = json_decode($jsonUsers, true);
+  $temp_array = $users[$userid]['cart'];
+  $productTitle = $product['title'];
+  $arrTitle = "item" . count($users[$userid]['cart']);
+  $cart = $users[$userid]['cart'];
+
+  if(isset($_POST["cartbutton"])) {
+    $selectOption = $_POST['amount'];
+    echo "Du har tilføjet " . htmlspecialchars($_POST['amount']) . " " . $product['title'] . " til din indkøbskurv!";
+    $users[$userid]['cart'] += [$arrTitle => ["pid" => $_GET['pid'], "cat" => $_GET['cat'], "price" => $product['price'], "title"=>$product['title'], "img" => $product['image']]];
+    $users[$userid]['cart'][$arrTitle] += ["amount" => $selectOption];
+    //$users[$userid]['cart'][$arrTitle] += ["pid" => $_GET['pid'], "cat" => $_GET['cat'], "price" => $product['price']];
+    //$users[$userid]['cart'] += [$arrTitle => $product['title']];
+    $jsonUsers = json_encode($users);
+    file_put_contents("json/accounts.json", $jsonUsers);
+  }
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -38,6 +60,7 @@ $product = getJson($_GET['cat'])[$_GET['pid']];
           </div>
       </div>
   </header>
+  <form method="post">
     <div id="product-wrapper">
         <div id="product-name">
           <p><?php echo $product['title']; ?></p>
@@ -49,29 +72,30 @@ $product = getJson($_GET['cat'])[$_GET['pid']];
           <h2><?php echo $product['price']; ?><span class="DKK"> DKK</span></h2>
           <p>Stykpris</p>
         </div>
-        <div id="amount">
-          <div id="unit-amount">
-            <select name="amount" data-controller="amount" id="input-amount" title="Indtast antal">
-              <option value="1" selected>1</option>
-              <option value="2">2</option>
-              <option value="3">3</option>
-              <option value="4">4</option>
-              <option value="5">5</option>
-              <option value="6">6</option>
-              <option value="7">7</option>
-              <option value="8">8</option>
-              <option value="9">9</option>
-              <option value="10">10</option>
-            </select>
+        
+          <div id="amount">
+            <div id="unit-amount">
+              <select name="amount" data-controller="amount" id="input-amount" title="Indtast antal">
+                <option value="1" selected>1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+              </select>
+            </div>
+            <div id="unit-title">
+              <p>Stk.</p>
+            </div>
           </div>
-          <div id="unit-title">
-            <p>Stk.</p>
+          <div id="add-to-cart">  
+            <button id="cart-button" type="submit" name="cartbutton">TILFØJ TIL KURV <i class="fa fa-shopping-cart"></i></button>
           </div>
-        </div>
-        <div id="add-to-cart">
-          <button id="cart-button" type="submit" name="cartbutton">TILFØJ TIL KURV <i class="fa fa-shopping-cart"></i></button>
-
-        </div>
+        
         <div id="product-description">
           <p><?php echo $product['specs']['other']; ?></p>
         </div>
@@ -114,6 +138,7 @@ $product = getJson($_GET['cat'])[$_GET['pid']];
           </div>
         </div>
     </div>
+    </form>
 </body>
 </html>
 <!-- <div> <?php// echo $product['specs']['other']; ?></div> -->
