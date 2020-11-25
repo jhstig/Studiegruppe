@@ -179,7 +179,7 @@ body {
 }
 #facts-wrapper {
   display: grid;
-  grid-template-columns: 1fr 1fr; 
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: 20px 20px 20px 60px 35px 20px;
 
 }
@@ -242,7 +242,7 @@ button {
   display: inline-block;
 }
 
-a {
+#register-user a {
   color: white;
 }
 
