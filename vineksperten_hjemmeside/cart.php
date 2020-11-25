@@ -63,7 +63,7 @@ $totalPrice = 0;
                     <br>
                 </div>
             <?php } ?>
-            <?php echo "TOTAL:" . $totalPrice; ?>
+            <?php echo "TOTAL: " . $totalPrice; ?>
         </div>
     </div>
 </body>
