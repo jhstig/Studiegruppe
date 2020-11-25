@@ -15,7 +15,7 @@ if(isset($_GET['cat'])) {
   //Jeg er pt tom
 } else {
   for($i = 0; $i < count($cats); $i++) {
-    $addedProds = getJson($cats[$i]['file']);
+    $addedProds = getJson($cats[3]['file']);
 
     for($k = 0; $k < count($addedProds); $k++) {
       $addedProds[$k]['pid'] = $k;
@@ -38,7 +38,7 @@ if(isset($_GET['cat'])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vineksperten</title>
+    <title>Vineksperten - Rosévin</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
