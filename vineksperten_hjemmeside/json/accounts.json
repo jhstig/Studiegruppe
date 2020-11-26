@@ -1,1 +1,1 @@
-[]
+[{"email":"poul@pulsen.dk","poul@pulsen.dk":{"password":"123","name":"Poul","street":"LAndevejen 1","city":"Odense","zip":"5000"},"cart":{"0":"","item1":{"pid":"0","cat":"json\/spiritus.json","price":"399,00","title":"Silent Pool Gin","img":"billeder\/silent_pool_gin.jpg","amount":"5"},"item2":{"pid":"1","cat":"json\/rosevin.json","price":"69,95","title":"Pastel Rosato Veronese","img":"billeder\/pastel_rosato_veronese.jpg","amount":"10"},"item3":{"pid":"0","cat":"json\/rodvin.json","price":"635,00","title":"Amarone Classico","img":"billeder\/amarone.jpg","amount":"1"}}}]

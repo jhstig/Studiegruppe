@@ -14,5 +14,21 @@
       "year": "2015"
 
     }
+  },
+  {
+    "title": "Silent Pool Gin 2",
+    "cat": "Spiritus",
+    "price": "399,00",
+    "country": "Storbritannien",
+    "region": "England",
+    "image": "billeder/silent_pool_gin.jpg",
+    "specs": {
+      "size": "0,70L",
+      "brand": "Silent Pool Distillers",
+      "abv": "3,0%",
+      "other": "Silent Pool er en helt fantastisk gin bestående af 24 botanicles, enebær er selvfølgelig hovedingrediensen, derudover finder vi nogle helt specielle komponenter som bla. pærer, honning og kefir lime. Silent Pool vandt guld ved World Spirit Awards 2016, og det kan man godt forstå når man smager den. Smagen er blød og rund med blomsternoter og frisk citrus, der ligeså stille slutter af med lidt sødme fra honningen.",
+      "year": "2015"
+
+    }
   }
 ]

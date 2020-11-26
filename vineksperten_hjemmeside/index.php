@@ -12,6 +12,7 @@
                 $_SESSION['username'] = $username;
                 $_SESSION['user-id'] = $i;
                 header("Location: forside.php");
+                exit();
             }
             //&& $users[$i][$_POST["email"]][$_POST["password"]]==$users[$i][$_POST["email"]]["password"]
         }

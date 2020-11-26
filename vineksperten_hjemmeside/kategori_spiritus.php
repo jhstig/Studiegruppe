@@ -14,15 +14,16 @@ $products = [];
 if(isset($_GET['cat'])) {
   //Jeg er pt tom
 } else {
-  for($i = 0; $i < count($cats); $i++) {
-    $addedProds = getJson($cats[3]['file']);
+  //for($i = 0; $i < count($cats); $i++) {
+    $addedProds = getJson("json/spiritus.json");
+    debug($addedProds);
 
     for($k = 0; $k < count($addedProds); $k++) {
       $addedProds[$k]['pid'] = $k;
       $addedProds[$k]['cat'] = $cats[3]['file'];
       $products[] = $addedProds[$k];
     }
-  }
+  //}
 
   /*
   for($i = 0; $i < count($cats); $i++) {
