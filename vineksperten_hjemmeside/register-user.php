@@ -38,7 +38,7 @@
 </head>
 <body>
   <div id="register-box">
-    <img id="register-logo" src="billeder/vineksperten.png">
+    <a href="index.php"><img id="register-logo" src="billeder/vineksperten.png"></a>
     <form name="registerUserForm" action="register-user.php" method="post">
         <p id="email-text">Email: </p>
         <div id="email-input"><input type="text" name="email" placeholder="Poul@poulsen.dk"></div>
